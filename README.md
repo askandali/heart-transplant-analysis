@@ -23,13 +23,10 @@ Rscript bio.R
 
 The file **SurvData6.txt** consists of 884 observations and 3 variables. These variables give us the following information about a patient:
 
-```mermaid
-graph LR
+- Survival time
+- Censor
+- Ischemic time
 
-A(Variables) --> B(Survival time)
-A --> C(censor)
-A --> D(Ischemic Time)
-```
 The ischemic time (IT) in a barplot: In most of the cases the ischemic time is between 2.87 and 5.27 hours.
 
 ![ischemic barplot](plots/ischemic time.svg)
