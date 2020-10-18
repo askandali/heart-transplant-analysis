@@ -16,7 +16,7 @@ library(survival)
 git clone https://github.com/askandali/heart-transplant-analysis.git
 cd heart-transplant-analysis
 
-install.packages(install.packages("survival", "survminer"))
+install.packages("survival", "survminer")
 Rscript bio.R
 ```
 ## Data
@@ -36,6 +36,8 @@ The ischemic time (IT) in a barplot: In most of the cases the ischemic time is b
 > In the Kaplan - Meier curve it is obvious that at the survival probability instantly reduces to about 80% without the passing of the time. This shows that there are cases that the tranplant didn't adapt in the patient organism from the first time.
 
 ![survival](plots/bio3.PNG)
+
+![survival time](plots/survival_time.svg)
 
 ## Cox Model
 
